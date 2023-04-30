@@ -39,9 +39,9 @@
             "location": "/home/runner/work/catalog/catalog/stable/pihole-unbound",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "2212.0.1",
+            "latest_version": "latest",
             "latest_app_version": "latest",
-            "latest_human_version": "latest_2212.0.1",
+            "latest_human_version": "latest",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png"
         }
     },
