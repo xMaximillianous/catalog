@@ -1,7 +1,7 @@
 apiVersion: v2
-name: ix-chart
+name: pihole-unbound
 description: A Helm chart for deploying simple workloads Kubernetes
-icon: https://raw.githubusercontent.com/pi-hole/graphics/master/Vortex/Vortex_Vertical_wordmark_lightmode.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png
 
 # A chart can be either an 'application' or a 'library' chart.
 #
