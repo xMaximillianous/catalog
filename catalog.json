@@ -29,6 +29,20 @@
             "latest_app_version": "2023.02.2",
             "latest_human_version": "2023.02.2_8.0.19",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png"
+        },
+        "pihole-unbound": {
+            "name": "pihole-unbound",
+            "categories": [
+                "networking"
+            ],
+            "app_readme": "<p>DNS and Ad-filtering for your network</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/pihole\">https://truecharts.org/charts/stable/pihole</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "location": "/home/runner/work/catalog/catalog/stable/pihole-unbound",
+            "healthy": true,
+            "healthy_error": null,
+            "latest_version": "2212.0.1",
+            "latest_app_version": "2023.02.2",
+            "latest_human_version": "2023.02.2_8.0.19",
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png"
         }
     },
     "dev": {
