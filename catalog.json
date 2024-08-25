@@ -44,6 +44,43 @@
             "latest_human_version": "latest",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png"
         }
+        "vaultwarden": {
+            "app_readme": "<h1>Vaultwarden</h1>\n<p><a href=\"https://github.com/dani-garcia/vaultwarden\">Vaultwarden</a> Alternative implementation of the <code>Bitwarden</code> server API written in Rust and compatible with upstream Bitwarden clients</p>\n<blockquote>\n<p>During the installation process, a container will be launched with <strong>root</strong> privileges. This is required\nin order to apply the correct permissions to the <code>Vaultwarden</code> data directory. Afterward, the <code>Vaultwarden</code> container\nwill run as a <strong>non</strong>-root user (default <code>568</code>).\nSame applies to the <code>postgres</code> container. This will run afterwards as a <strong>non</strong>-root user (<code>999</code>).\nOn each upgrade, a container will be launched with <strong>root</strong> privileges in order to apply the correct\npermissions to the <code>postgres</code> <strong>backups</strong> directory. Container that performs the backup will run as a <strong>non</strong>-root user (<code>999</code>) afterwards.\nKeep in mind the permissions on the backup directory will be changed to <code>999:999</code> on <strong>every</strong> update.\nBut will only be changed once for the <code>Vaultwarden</code> and <code>postgres</code> data directories.</p>\n</blockquote>\n<p>While the option to use <code>Rocket</code> for TLS is there, it is not\n<a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Enabling-HTTPS#via-rocket\">recommended</a>.\nInstead, use a reverse proxy to handle TLS termination.</p>\n<p>Using <code>HTTPS</code> is <strong>required</strong> for the most of the features to work (correctly).</p>",
+            "categories": [
+                "security"
+            ],
+            "description": "Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/dani-garcia/vaultwarden",
+            "location": "/home/runner/work/catalog/catalog/stable/vaultwarden",
+            "latest_version": "1.1.14",
+            "latest_app_version": "1.32.0",
+            "latest_human_version": "1.32.0_1.1.14",
+            "last_update": "2024-08-23 10:56:52",
+            "name": "vaultwarden",
+            "recommended": false,
+            "title": "Vaultwarden",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [
+                "password",
+                "manager"
+            ],
+            "screenshots": [
+                "https://media.sys.truenas.net/apps/vaultwarden/screenshots/screenshot1.png"
+            ],
+            "sources": [
+                "https://github.com/dani-garcia/vaultwarden",
+                "https://github.com/truenas/charts/tree/master/community/vaultwarden"
+            ],
+            "icon_url": "https://media.sys.truenas.net/apps/vaultwarden/icons/icon.png"
+        },
     },
     "dev": {
         "testapp": {
